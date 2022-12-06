@@ -17,8 +17,7 @@ public class Main {
         System.out.println("Задача 3");
         int speed = 70;
         int maxSpeed = 60;
-        boolean mySpeed = speed > maxSpeed;
-        if (mySpeed) {
+        if (speed > maxSpeed) {
             System.out.println("Если скорость " + speed + ", то придется заплатить штраф");
         } else {
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
